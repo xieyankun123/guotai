@@ -16,7 +16,7 @@ public class TestController {
     @RequestMapping("1")
     public testModel test()
     {
-        System.out.println(123);
+        System.out.println("hello world");
         return testService.getAll();
     }
 }
